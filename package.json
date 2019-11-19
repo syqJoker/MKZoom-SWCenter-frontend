@@ -1,0 +1,34 @@
+{
+  "name": "SWCenter",
+  "version": "1.0.0",
+  "description": "street workout data center",
+  "main": "N",
+  "scripts": {
+    "server": "node server",
+    "start": "set PORT=8880 && umi dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lianpf",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.25.2",
+    "babel": "^6.23.0",
+    "babel-plugin-import": "^1.12.2",
+    "express": "^4.17.1",
+    "moment": "latest",
+    "mongoose": "^5.7.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "umi": "^2.12.0"
+  },
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ]
+  ]
+}
